@@ -1,0 +1,57 @@
+.hide {
+    display: none;
+}
+
+a.soundcloud{
+    font-size: 19px;
+    color: #ff8236;
+    margin: 0 4px;
+    transition: all 0.5s;
+  -webkit-transition: all 0.5s; 
+  position: relative;
+  bottom: 0;
+}
+a.youtube{
+        font-size: 19px;
+    color: red;
+    margin: 0 4px;
+    transition: all 0.5s;
+  -webkit-transition: all 0.5s; 
+    position: relative;
+  bottom: 0;
+}
+a.spotify{
+    font-size: 19px;
+    color: orange;
+    margin: 0 4px;
+    transition: all 0.5s;
+  -webkit-transition: all 0.5s; 
+    position: relative;
+  bottom: 0;
+}
+
+a.spotify:hover{
+    bottom: 3px;
+    color: orange;
+}
+
+ a.soundcloud:hover{
+    bottom: 3px;
+    color: #ff8236;
+}
+
+ a.youtube:hover{
+   bottom: 3px;
+    color: red;
+}
+
+.card-text{
+    max-height: 70px;
+    overflow: hidden;
+    transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.card-text.read-more{
+    max-height: auto;
+}
